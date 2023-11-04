@@ -2,16 +2,147 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sara Dewi</title>
     <link rel="stylesheet" href="style/style.css" />
-    <title>SheCodes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h2>Hello, I am</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sara Dewi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2>👋 Hi I am</h2>
     <h1>Sara</h1>
-    <h3>a future full-stack developer, based in Sydney</h3>
-    <a href="about.html#contact" id="contact-me"><button>Contact me</button></a>
-    <a href="about.html" id="about-me"><button>About me</button></a>
+    <h3>🇦🇺 Front-end developer, based in Sydney</h3>
+    <div class="navigation-links">
+      <a href="about.html#contact" class="contact-link">Contact me</a>
+      <a href="about.html" class="about-link">About me</a>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="images/weather.png" alt="weather" class="img-fluid" />
+        </div>
+        <div class="col-sm-6">
+          <h2>Weather App</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="navigation-links d-flex justify-content-start">
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-plus-836603e2-8bec-43e1-be78-3fc8392def36/projects/1859260"
+              class="contact-link"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Yoga App</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="navigation-links d-flex justify-content-end">
+              <a
+                href="https://www.shecodes.io/workshops/shecodes-plus-836603e2-8bec-43e1-be78-3fc8392def36/projects/1859260"
+                class="contact-link"
+                >Launch Yoga App</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="images/yoga.png" alt="yoga" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="images/yogurt.png" alt="yoghurt" class="img-fluid" />
+            </div>
+            <div class="col-sm-6">
+              <h2>Yoghurt App</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <div class="navigation-links d-flex justify-content-start">
+                <a
+                  href="http://shecodes.io/workshops/shecodes-basics-add-on-5ee5cade-3720-4ebd-875c-f33950fcf1c8/projects/1753849"
+                  class="contact-link"
+                  >Launch Yoghurt App</a
+                >
+              </div>
+            </div>
+          </div>
+    </div>
   </body>
 </html>
