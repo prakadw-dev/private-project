@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  text-align: center;
+  line-height: 10px;
+  padding-top: 60px;
+}
+h1 {
+  color: var(--primary-color);
+}
+button {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+#contact-me {
+  background: var(--primary-color);
+  border: 1px solid white;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+#paragraph p {
+  margin: 10px;
+}
+#paragraph {
+  display: flex;
+  margin: 30px 0;
+}
