@@ -48,6 +48,10 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+footer {
+  text-align: center;
+  margin: 20px 10px;
+}
 
 .navigation-links {
   display: flex;
